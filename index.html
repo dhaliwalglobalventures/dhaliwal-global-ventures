@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,58 +7,61 @@
     <title>Dhaliwal Global Ventures</title>
     <style>
         body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background: linear-gradient(135deg, #f5f7fa 0%, #d1d8e0 100%);
+            font-family: 'Poppins', sans-serif;
+            background: radial-gradient(circle, #0d1b2a 0%, #000814 100%);
             display: flex; justify-content: center; align-items: center;
-            min-height: 100vh; margin: 0; color: #2d3436;
+            min-height: 100vh; margin: 0; color: #fff;
         }
         .card {
-            background: white; padding: 40px 30px; border-radius: 24px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            max-width: 380px; width: 90%; text-align: center;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            padding: 40px 30px; border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            max-width: 400px; width: 90%; text-align: center;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.6);
         }
-        .logo-circle {
-            width: 90px; height: 90px; background: #2d3436; color: white;
-            border-radius: 50%; display: flex; justify-content: center;
-            align-items: center; font-size: 1.8rem; font-weight: bold; 
-            margin: 0 auto 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        .logo-img {
+            width: 160px; height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 2px solid #ffd700;
+            box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
         }
-        h1 { margin: 10px 0; font-size: 1.7rem; letter-spacing: -0.5px; }
-        p { color: #636e72; margin-bottom: 25px; line-height: 1.5; }
-        
-        .btn-container { display: flex; flex-direction: column; gap: 12px; }
-        
+        h1 { margin: 10px 0; font-size: 1.6rem; color: #ffd700; text-transform: uppercase; letter-spacing: 1.5px; }
+        .tagline { color: #8d99ae; font-style: italic; margin-bottom: 30px; font-size: 0.85rem; }
+        .btn-container { display: flex; flex-direction: column; gap: 15px; }
         .btn {
-            display: block; padding: 14px; border-radius: 12px;
-            text-decoration: none; font-weight: 600; transition: 0.3s;
-            font-size: 1rem;
+            display: block; padding: 15px; border-radius: 50px;
+            text-decoration: none; font-weight: 700; transition: 0.4s;
+            font-size: 0.9rem; letter-spacing: 1px;
         }
         .btn-insta { 
-            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
             color: white; 
         }
-        .btn-email { background: #2d3436; color: white; }
-        
-        .btn:hover { transform: translateY(-3px); opacity: 0.9; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        
-        .footer { margin-top: 25px; font-size: 0.85rem; color: #b2bec3; font-weight: 500; }
+        .btn-email { 
+            background: transparent; 
+            border: 1.5px solid #ffd700; 
+            color: #ffd700; 
+        }
+        .btn:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.4); }
+        .footer { margin-top: 35px; font-size: 0.75rem; color: #4a4e69; letter-spacing: 0.5px; }
     </style>
 </head>
 <body>
     <div class="card">
-        <div class="logo-circle">DGV</div>
+        <img src="file_0000000088bc" alt="Dhaliwal Global Ventures" class="logo-img">
+        
         <h1>Dhaliwal Global Ventures</h1>
-        <p>Your partner in Global Trading, Export-Import & Business Consultancy.</p>
+        <div class="tagline">Powered by Vision, Driven by Success</div>
         
         <div class="btn-container">
-            <a href="https://www.instagram.com/Dhaliwalglobal_official" class="btn btn-insta" target="_blank">Follow on Instagram</a>
-            
-            <a href="mailto:globalventuresdhaliwal@gmail.com" class="btn btn-email">Send an Email</a>
+            <a href="https://www.instagram.com/Dhaliwalglobal_official" class="btn btn-insta" target="_blank">FOLLOW ON INSTAGRAM</a>
+            <a href="mailto:globalventuresdhaliwal@gmail.com" class="btn btn-email">CONTACT VIA EMAIL</a>
         </div>
         
-        <div class="footer">
-            📍 Sri Ganganagar, Rajasthan
-        </div>
+        <div class="footer">📍 Sri Ganganagar, Rajasthan | Global Trading</div>
     </div>
 </body>
 </html>
